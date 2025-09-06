@@ -45,7 +45,7 @@ startTimer();
 // toggle pause/resume
 pauseBtn.addEventListener("click", () => {
   isPaused = !isPaused;
-  pauseBtn.textContent = isPaused ? "Resume" : "Pause";
+  pauseBtn.textContent = isPaused ? "show" : "hide";
 });
 
 document.querySelectorAll(".highlight").forEach((el) => {
