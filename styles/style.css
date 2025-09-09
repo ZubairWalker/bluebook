@@ -67,7 +67,7 @@ button {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  form {
-    margin-bottom: 500px;
+  button {
+    margin-bottom: 390px;
   }
 }
