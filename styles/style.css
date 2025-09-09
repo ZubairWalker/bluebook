@@ -5,6 +5,10 @@
   font-family: "Arial", sans-serif;
 }
 
+.entire {
+  /* height: 100vh; */
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -47,8 +51,8 @@
 form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-bottom: 248px;
+  align-items: center;  
+  margin-bottom: 245px;
 }
 button {
   background-color: #ffd600;
@@ -60,4 +64,10 @@ button {
   cursor: pointer;
   transition: all 0.3s ease;
   font-family: "Arial", sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  form {
+    margin-bottom: 320px;
+  }
 }
